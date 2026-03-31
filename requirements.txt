@@ -1,0 +1,25 @@
+# ============================================================
+# Requirements – GMM: Credit Card Fraud & Speaker Identification
+# ============================================================
+
+# Core scientific computing
+numpy>=1.24.0
+pandas>=1.5.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Audio processing (Speaker ID only)
+librosa>=0.10.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Streamlit (interactive web app)
+streamlit>=1.28.0
+
+# Optional: Jupyter notebook support
+ipykernel>=6.0.0
+ipywidgets>=8.0.0

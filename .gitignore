@@ -1,0 +1,54 @@
+# ============================================================
+# .gitignore – GMM: Credit Card Fraud & Speaker Identification
+# ============================================================
+
+# ── Large dataset files (too big for GitHub) ─────────────────
+data/creditcard.csv
+data/archive/recordings/
+
+# Tell Git to still track the empty folder structure
+!data/.gitkeep
+!data/archive/.gitkeep
+
+# ── Python cache ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Jupyter Notebook checkpoints ─────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS generated files ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── IDE/Editor files ──────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── Temporary / backup files ──────────────────────────────────
+~$*
+*.tmp
+*.bak
+
+# ── Output plots (optional – uncomment to ignore) ─────────────
+# plots/
+
+# ── Model saved files ─────────────────────────────────────────
+*.pkl
+*.joblib
+*.h5
