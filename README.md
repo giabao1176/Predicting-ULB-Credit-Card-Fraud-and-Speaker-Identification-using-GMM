@@ -223,7 +223,7 @@ File `src/app.py` cung cấp giao diện web với **3 module**:
 
 ## 👥 Tác giả
 
-> Đây là bài báo thực hiện trong khuôn khổ môn học **Trí Tuệ Nhân Tạo / Machine Learning**.
+> Đây là bài báo thực hiện bởi Đặng Gia Huy trong khuôn khổ môn học ** Math for Machine Learning**.
 
 ---
 
